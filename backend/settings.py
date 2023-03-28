@@ -168,6 +168,6 @@ DJOSER = {
 }
 
 try:
-    from server_settings import *
+    from .server_settings import *
 except ImportError:
     pass 
